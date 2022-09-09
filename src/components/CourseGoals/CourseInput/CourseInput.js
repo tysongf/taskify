@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import Button from "../../UI/Button/Button";
-import "./CourseInput.css";
 
 const FormControl = styled.div`
    margin: 0.5rem 0;
@@ -32,8 +31,6 @@ const FormControl = styled.div`
 
    & input:focus {
       outline: none;
-      background: #fad0ec;
-      border-color: #8b005d;
    }
 `;
 
